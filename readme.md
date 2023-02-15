@@ -2,7 +2,7 @@
 
 - [Grafana Enterprise Metrics - Logs - Traces Validation](#grafana-enterprise-metrics---logs---traces-validation)
   - [Feature Validation](#feature-validation)
-    - [Download & test mimirtool](#download--test-mimirtool)
+    - [Download \& test mimirtool](#download--test-mimirtool)
     - [Test bucket functionality](#test-bucket-functionality)
   - [Performance validation](#performance-validation)
 
@@ -21,12 +21,12 @@ Release page :
 
 Direct links : 
 
-* Linux AMD 64 : [https://github.com/grafana/mimir/releases/download/mimir-2.4.0/mimirtool-linux-amd64](https://github.com/grafana/mimir/releases/download/mimir-2.4.0/mimirtool-linux-amd64)
-* Windows AMD 64: [https://github.com/grafana/mimir/releases/download/mimir-2.4.0/mimirtool-windows-amd64.exe](https://github.com/grafana/mimir/releases/download/mimir-2.4.0/mimirtool-windows-amd64.exe)
+* Linux AMD 64 : [https://github.com/grafana/mimir/releases/download/mimir-2.6.0/mimirtool-linux-amd64](https://github.com/grafana/mimir/releases/download/mimir-2.6.0/mimirtool-linux-amd64)
+* Windows AMD 64: [https://github.com/grafana/mimir/releases/download/mimir-2.6.0/mimirtool-windows-amd64.exe](https://github.com/grafana/mimir/releases/download/mimir-2.6.0/mimirtool-windows-amd64.exe)
 
 
 ```
-sudo curl -L -o /usr/local/bin/mimirtool https://github.com/grafana/mimir/releases/download/mimir-2.4.0/mimirtool-linux-amd64 
+sudo curl -L -o /usr/local/bin/mimirtool https://github.com/grafana/mimir/releases/download/mimir-2.6.0/mimirtool-linux-amd64 
 
 sudo chmod 755 /usr/local/bin/mimirtool
 ```
@@ -34,7 +34,7 @@ sudo chmod 755 /usr/local/bin/mimirtool
 ```
 mimirtool version
 
-### RESULTS ###
+### EXAMPLE RESULTS ###
 
 Mimirtool, version 2.4.0 (branch: release-2.4, revision: 32137ee2c)
   go version:       go1.19.2
@@ -84,10 +84,10 @@ Release page:
 
 Direct download link : 
 
-[https://github.com/minio/warp/releases/download/v0.6.3/warp_0.6.3_Linux_x86_64.tar.gz](https://github.com/minio/warp/releases/download/v0.6.3/warp_0.6.3_Linux_x86_64.tar.gz)
+[https://github.com/minio/warp/releases/download/v0.6.6/warp_0.6.6_Linux_x86_64.tar.gz](https://github.com/minio/warp/releases/download/v0.6.6/warp_0.6.6_Linux_x86_64.tar.gz)
 
 ```
-curl -L -o  /tmp/warp.tar.gz https://github.com/minio/warp/releases/download/v0.6.3/warp_0.6.3_Linux_x86_64.tar.gz
+curl -L -o  /tmp/warp.tar.gz https://github.com/minio/warp/releases/download/v0.6.6/warp_0.6.6_Linux_x86_64.tar.gz
 
 tar -xzvf /tmp/warp.tar.gz -C /tmp/  warp 
 
