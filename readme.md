@@ -99,7 +99,16 @@ Run the following command by changing the parameters to your needs.
 **/!\ Warning the bucket will be erased. make sure it is a bucket without critical data.**
 
 ```
-warp mixed --obj.randsize --obj.size=1500KiB --host=YOUR_S3_HOST:PORT --access-key=YOUR_ACCESS_KEY --secret-key=YOUR_SECRET --tls --autoterm --bucket=YOUR_BUCKET
+warp mixed --obj.randsize --obj.size=1500KiB --host=YOUR_S3_HOST:PORT --access-key=YOUR_ACCESS_KEY --secret-key=YOUR_SECRET --tls --autoterm --bucket=YOUR_BUCKET --concurrent=CONCURRENCY
+```
+
+set the concurrent value according to your machines core count
+
+```
+--concurrent=80 uses ~4 cores
+--concurrent=160 uses ~7 cores
+--concurrent=320 uses ~9 cores
+--concurrent=640 uses ~10 cores
 ```
 
 Example Raw output:
